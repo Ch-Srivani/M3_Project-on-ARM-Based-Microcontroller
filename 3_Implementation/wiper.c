@@ -8,7 +8,6 @@
  * @copyright Copyright (c) 2022
  * 
  */
-
 #include "MyStm32f407xx.h"
 #include <stdint.h>
 #include <stdio.h>
@@ -21,10 +20,7 @@ void Clockwise(void);
 void wiper_off(void);
 int main(void)
 {
-	
 	GPIO_Handle_t GpioLed, GpioLed1, GpioLed2, GpioLed3, GpioBtn;
-
-	
 	GpioLed.pGPIOx = GPIOD;
 	GpioLed.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_12;
 	GpioLed.GPIO_PinConfig.GPIO_PinMode = GPIO_MODE_OUT;
@@ -59,8 +55,6 @@ int main(void)
 	GpioLed3.GPIO_PinConfig.GPIO_PinOPType = GPIO_OP_TYPE_PP;
 	GPIO_PeriClockControl(GPIOD, ENABLE);
 	GPIO_Init(&GpioLed3);
-
-	
 	GpioBtn.pGPIOx = GPIOA;
 	GpioBtn.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_0;
 	GpioBtn.GPIO_PinConfig.GPIO_PinMode = GPIO_MODE_IN;
@@ -120,7 +114,6 @@ void igniton_on(void)
 	GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_14);
 	GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_15);
 }
-
 void igniton_off(void) 
 {
 	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12, 0);
@@ -146,7 +139,6 @@ void wiper_on(void)
 	delay();
 	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15,0 );
 }
-
 void wiper_off(void) 
 	GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_12);
 	delay();
@@ -159,7 +151,6 @@ void wiper_off(void)
 	GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_14);
 	delay();
 	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_14, 0);
-
 	GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_13);
 	delay();
 	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13, 0);
