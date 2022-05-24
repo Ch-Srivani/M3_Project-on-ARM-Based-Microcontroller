@@ -45,3 +45,36 @@ OpenOCD:
 # RESEARCH:
 * Application is investigated from different asset like from Google, Youtube and research papers and afterward created one application model that is Wiper Control System.
 # 4W & H (WHO,WHAT,WHEN,WHERE,HOW):
+* WHAT:
+The operational speed of a vehicle wiper is controlled by a wiper speed control mechanism based on rain conditions. To generate, the control system incorporates a rain sensor (30) that detects rain conditions. The amplitude of an analogue signal depends on the detected rain conditions.
+* WHY:
+To keep the windscreen clean enough to give adequate view at all times. #WHEN The windshield wipers remove rain and snow from the windshield, while the headlights improve visibility at night.
+* WHO:
+Mark Anderson invented on 1902
+# STRENGTH:
+* Low Budget
+* Decrease the accidental situation
+* High Bargaining Power Supliers
+* Increase safety
+# WEAKNESS:
+* High maintenance.
+* High Transaction Cost
+* Limited speed
+* Week Focus on Process Innovations
+* Can be frustrating at low penetration rates.
+# OPPORTUNITIES:
+* Emerging New Markets
+* Technological Development
+* Demand for Saver Equipments
+* Technological Lock in of Product
+* Enables novel MTM application.
+# THREATS:
+* Low Bargaining Power Buyers
+* Highly REgulated Industry
+* Ethical Pressure
+* Econimical Crisis
+* MTM delayed adapation.
+# HIGH LEVEL REQUIREMENTS
+![high level](https://user-images.githubusercontent.com/102870718/170036109-41784821-ca5c-431a-a468-9ad33627bf70.png)
+# LOW LEVEL REQUIREMENTS
+![low levell](https://user-images.githubusercontent.com/102870718/170036246-6d9e717d-808e-4f93-8fa7-3308ab8fa3df.png)
