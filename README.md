@@ -8,3 +8,5 @@ A windscreen washer system is also used on some vehicles to improve and broaden 
 [![Cppcheck Analysis](https://github.com/Ch-Srivani/M3_Project-on-ARM-Based-Microcontroller/actions/workflows/Cppcheck%20Analyse.yml/badge.svg)](https://github.com/Ch-Srivani/M3_Project-on-ARM-Based-Microcontroller/actions/workflows/Cppcheck%20Analyse.yml)
 # BUILD ON LINUX
 [![Build-Linux](https://github.com/Ch-Srivani/M3_Project-on-ARM-Based-Microcontroller/actions/workflows/Build%20on%20linux.yml/badge.svg)](https://github.com/Ch-Srivani/M3_Project-on-ARM-Based-Microcontroller/actions/workflows/Build%20on%20linux.yml)
+# CODACY
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1aa5bf43d7e94ee1855575de2bf2c4cb)](https://www.codacy.com/gh/Ch-Srivani/M3_Project-on-ARM-Based-Microcontroller/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Ch-Srivani/M3_Project-on-ARM-Based-Microcontroller&amp;utm_campaign=Badge_Grade)
