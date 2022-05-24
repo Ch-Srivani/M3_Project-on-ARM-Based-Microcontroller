@@ -1,7 +1,7 @@
 /**
  * @file wiper1.c
  * @author Srivani Chitrapu
- * @brief WIPER
+ * @brief wiper
  * @version 0.1
  * @date 2022-05-12
  * 
