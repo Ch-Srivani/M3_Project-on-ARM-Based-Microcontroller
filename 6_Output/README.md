@@ -1,6 +1,7 @@
 # OUTPUTS
 # ENGINE ON STATE
-![wiper_system_1](https://user-images.githubusercontent.com/102870718/170038324-7cf78ec4-c5c3-4c5d-b51a-4050690ac593.png)
+![red Led on](https://user-images.githubusercontent.com/102870718/170039425-4410d029-8408-4e51-97c2-7aea11fee120.png)
+
 # WIPER SPEED LOW
 ![B](https://user-images.githubusercontent.com/102870718/170038665-891adb95-bcf4-4d38-b105-f4e4afbdaf8d.png)
 # WIPER MODERATE
